@@ -1,0 +1,32 @@
+.container{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+}
+
+.item{
+  position: relative;
+  margin-bottom: 10px;
+  box-shadow:0px 2px 8px rgba(28, 28, 28, 0.15);
+  border-radius: 6px;
+  color:white;
+  height: 400px;
+  width:100%;
+  background-size: cover;
+  background-repeat: none;
+ 
+}
+
+.collection-info{
+  position: absolute;
+  bottom: 0;
+  padding: 0 0 10px 10px;
+  text-align: left;
+  width: 100%;
+  background: rgba(28, 28, 28, 0.5);
+  border-radius: 6px;
+  filter:blur(0.7);
+}
